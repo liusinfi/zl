@@ -1,8 +1,8 @@
 spring:
   mail:
     host: smtp.163.com
-    username: user
-    password: pass
+    username: m6162390748@163.com
+    password: m6162390748
     properties:
       mail:
         smtp:
@@ -27,3 +27,17 @@ spring:
 server:
   tomcat:
     uri-encoding: UTF-8
+    accesslog:
+      buffered: true
+      directory: /tmp/log
+      enabled: true
+      file-date-format: .yyyy-MM-dd
+      pattern: common
+      prefix: access_log
+      rename-on-rotate: false
+      request-attributes-enabled: false
+      rotate: true
+      suffix: .log
+    max-connections: 2000
+    max-threads: 100
+  port: 80

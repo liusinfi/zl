@@ -678,7 +678,7 @@
                         <input type="button" id="chance" class="J-submit-btn bj-btn-apply" value="立即查询">
                     </div>
                     <p class="form-infor" id="msgshow" style="display: none;position: inherit;  ">
-                        请耐心等候，您的知识产权顾问<i class="number-all">13808533479</i>会及时反馈查询结果</p>
+                        请耐心等候，您的知识产权顾问<i class="number-all">15045454543</i>会及时反馈查询结果</p>
                 </form>
             </div>
         </div>
