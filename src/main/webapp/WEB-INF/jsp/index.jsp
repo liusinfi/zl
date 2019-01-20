@@ -14,41 +14,20 @@
 
     <meta name="360-site-verification" content="77e88fa96898c4e0de55c512d98cf44d">
     <meta name="baidu-site-verification" content="iU4b28DEAC">
-    <link rel="canonical" href="https://zt.ipr.zbj.com/patent/zlcx/">
 
-
-    <link rel="stylesheet" type="text/css" href="//as.zbjimg.com/??/static/as-common/global/global_d80dcf1.css">
-    <link rel="stylesheet" type="text/css"
-          href="//as.zbjimg.com/??/static/as-ipr-www/widget/common/2018-header/head_a3b64c5.css,/static/as-ipr-zt/widget/common/nav/nav_e0edd43.css,/static/as-ipr-www/widget/2017index/mod_left_ad_c491f26.css,/static/as-ipr-www/widget/2017index/mod_righttool_f9ec6e3.css,/static/as-ipr-www/widget/common/2017-footer/footer_14b0422.css,/static/as-ipr-www/widget/common/topbar/topbar_72b9067.css">
-    <link rel="stylesheet" type="text/css" href="//as.zbjimg.com/??/static/as-ipr-zt/common/common_54da571.css">
-    <link rel="stylesheet" type="text/css" href="//as.zbjimg.com/??/static/as-ipr-zt/pc/20170509zlcx/index_b215d6e.css">
-    <link type="text/css" rel="stylesheet" href="//webchat.7moor.com//stylesheets/chatStyle.css?0108">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/tips/tips_1f8a38d.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/??glyx-panel/index_b1ef20b.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/common-right-bottom-ad/index_8fa3784.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/coupon88/??coupon88_41fa013.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/??2018-new-dialog/index_4a5da0f.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/2018-chance-success/??index_d920b3e.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/overlay/??overlay_c5fb590.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/2017-index-chance-panel/??chance_cb96082.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/pop-alert/overlay_fc5546c.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/chance-stay-panel/??chance-stay-panel_d8f1524.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/success-panel/??success_0aa691c.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/chance-panel/??chance_5ae07de.css">
-    <link charset="utf-8" rel="stylesheet"
-          href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/continue-panel/??continue_36003f9.css">
+    <link rel="shortcut icon" href="/static/img/bitbug_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/static/css/global.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/head.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <link charset="utf-8" rel="stylesheet" href="/static/css/tips.css">
+    <link charset="utf-8" rel="stylesheet" href="/static/css/index_b1.css">
+    <link charset="utf-8" rel="stylesheet" href="/static/css/coupon.css">
+    <link charset="utf-8" rel="stylesheet"          href="/static/css/overlay.css">
+    <link charset="utf-8" rel="stylesheet"          href="/static/css/chance.css">
+    <link charset="utf-8" rel="stylesheet"          href="/static/css/chance-stay-panel.css">
+    <link charset="utf-8" rel="stylesheet"          href="/static/css/success.css">
+    <link charset="utf-8" rel="stylesheet"          href="/static/css/continue.css">
     <style type="text/css">
         .alert-tips{
             display: none;
@@ -58,28 +37,15 @@
 
 <body class="">
 
-<%--<div class="top-chance">
-    <div class="ipr-nav">
-        <div class="ipr-wrap">
-            <div class="nav-logo">
-                <a class="logo" href="https://ipr.zbj.com" title="八戒知识产权">
-                    <img src="//as.zbjimg.com/static/as-ipr-zt/widget/common/nav/img/logo_bb292f1.png" alt="知识产权">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>--%>
-
-
 <div class="main yahei">
     <div class="zlcx-header ">
         <div class="zbj-grid">
             <p class="chance-num">已有&nbsp;<span>372202</span>&nbsp;人获得查询结果</p>
             <div class="search-block">
-                <input type="text" class="J-chance-text search-input" placeholder="请用一句话简单描述你的专利，如“一种多功能台灯”。10分钟内获取结果">
-                <button type="button" class="J-chance-btn">免费查询能否申请</button>
+                <input type="text" id="descdesc" class="J-chance-text search-input" placeholder="请用一句话简单描述你的专利，如“一种多功能台灯”。10分钟内获取结果">
+                <button type="button" class="J-chance-btn" onclick="hidemsgs()">免费查询能否申请</button>
             </div>
-            <p class="J-chance-btn J-only-tel unknown-description ">不知道如何描述，直接人工查询</p>
+            <p class="J-chance-btn J-only-tel unknown-description " onclick="shosl()">不知道如何描述，直接人工查询</p>
             <div class="notice-lists ">
                 <div class="J-notice notice-list">
 
@@ -154,9 +120,9 @@
         <li data-floor="2" class="">专利的作用</li>
         <li data-floor="3" class="">专利费用</li>
         <li data-floor="4" class="">专利申请流程</li>
-        <li data-floor="5" class="">专家团队</li>
+        <%--<li data-floor="5" class="">专家团队</li>--%>
         <li data-floor="6" class="">服务保障</li>
-        <li class="J-chance-btn J-only-tel J-not-floor nav-search">立即查询</li>
+        <li class="J-chance-btn J-only-tel J-not-floor nav-search"  onclick="shosl()">立即查询</li>
         <%--<li class="J-open-nav J-not-floor open-nav">收起<i class="up"></i></li>
         <li class="J-close-nav J-not-floor close-nav hide">展开<i class="down"></i></li>--%>
     </ul>
@@ -463,7 +429,7 @@
             </div>
         </div>
     </div>
-    <div class="J-floor block-7">
+    <%--<div class="J-floor block-7">
         <div class="zbj-grid">
             <h2>我们团队</h2>
             <p class="sub-title">前国知局专家团队 为你服务</p>
@@ -548,10 +514,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
     <div class="J-floor block-8">
         <div class="zbj-grid">
-            <h2>选择八戒 拒绝风险</h2>
+            <h2>选择我们 拒绝风险</h2>
             <p class="sub-title">你的专利，我们贴心保障</p>
             <div class="compare-intro">
                 <p class="intro-1">价格混乱，额外消费多</p>
@@ -567,193 +533,12 @@
                 <i class="line"></i>
                 <button data-value="专利申请" type="button" onclick="showmes()" class="J-chance-btn">立即获取服务</button>
             </div>
-            <p class="action">
-                <a href="http://news.ipr.zbj.com/bjdt-3535.html" target="_blank">说明：重庆八戒知识产权服务有限公司专利服务由北京酷爱智慧知识产权代理有限公司提供</a>
-            </p>
         </div>
     </div>
 </div>
 
 
-<div class="footer">
-    <div class="ipr-grid">
-        <div class="footer-top clearfix">
-            <ul>
-                <%--<li>400-023-0033</li>--%>
-                <li>13809988986</li>
-            </ul>
-            <p class="footer-work-time">
-                <span>周一至周五：9:00 - 20:00</span>
-                <span>周六至周日：9:00 - 18:00</span>
-            </p>
-        </div>
-        <div class="footer-bottom" style="display: none;">
-            <div class="footer-left">
-                <div class="footer-left-top">
-                    <ul class="footer-left-title-list">
-                        <li class="footer-left-title">
-                            <p class="footer-left-title-link">知识产权保护</p>
-                            <ul class="footer-left-title-content">
-                                <li><a href="https://ipr.zbj.com/trademark" target="_blank" data-link="191" title="">商标注册</a>
-                                </li>
-                                <li><a href="https://ipr.zbj.com/copyright/" target="_blank" data-link="192" title="">版权登记</a>
-                                </li>
-                                <li><a href="https://ipr.zbj.com/zl/" target="_blank" data-link="193" title="">专利申请</a>
-                                </li>
-                                <li><a href="http://market.ipr.zbj.com/" target="_blank" data-link="194"
-                                       title="">商标交易</a></li>
-                                <li><a href="https://ipr.zbj.com/trademark/bhfs/" target="_blank" data-link="195"
-                                       title="">商标驳回复审</a></li>
-                            </ul>
-                        </li>
-                        <li class="footer-left-title">
-                            <p class="footer-left-title-link">免费工具</p>
-                            <ul class="footer-left-title-content">
-                                <li><a href="https://ipr.zbj.com/sort" target="_blank" data-link="196"
-                                       title="">商标分类表</a></li>
-                                <li><a href="https://zt.ipr.zbj.com/mark/sbcx" target="_blank" data-link="197" title="">商标免费查询</a>
-                                </li>
-                                <li><a href="https://zt.ipr.zbj.com/chatm/app" target="_blank" data-link="198" title="">商标进度查询</a>
-                                </li>
-                                <li><a href="https://market.ipr.zbj.com/sbzj/buy-patent" target="_blank" data-link="199"
-                                       title="">专利买卖助手</a></li>
-                                <li><a href="https://zt.ipr.zbj.com/buy/kstj" target="_blank" data-link="200" title="">免费找标</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="footer-left-title">
-                            <p class="footer-left-title-link">资讯内容</p>
-                            <ul class="footer-left-title-content">
-                                <li><a href="" data-link="" title=""></a></li>
-                                <li><a href="https://zx.ipr.zbj.com" target="_blank" data-link="201" title="">知讯</a>
-                                </li>
-                                <li><a href="https://zx.ipr.zbj.com/qyzx/" target="_blank" data-link="202"
-                                       title="">前沿资讯</a></li>
-                                <li><a href="https://zx.ipr.zbj.com/hyzs/" target="_blank" data-link="203"
-                                       title="">行业知识</a></li>
-                                <li><a href="https://zt.ipr.zbj.com/" target="_blank" data-link="" title="">专题汇总</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="footer-left-title">
-                            <p class="footer-left-title-link">商务合作</p>
-                            <ul class="footer-left-title-content">
-                                <li><a href="" target="_blank" data-link="205" title="">电话：023-88392917</a></li>
-                                <li><a href="" target="_blank" data-link="206" title="">邮箱：ipryy@zbj.com</a></li>
-                                <li><a href="" target="_blank" data-link="" title=""></a></li>
-                                <li><a href="" target="_blank" data-link="" title=""></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
 
-                <div class="footer-left-bottom">
-                    <ul>
-                        <li><a href="https://ipr.zbj.com/" target="_blank" data-link="209" title="">首页</a></li>
-                        <li><a href="https://ipr.zbj.com/about/gywm" rel="nofollow" target="_blank" data-link="210"
-                               title="">关于我们</a></li>
-                        <li><a href="https://ipr.zbj.com/about/payment" rel="nofollow" target="_blank" data-link="211"
-                               title="">支付方式</a></li>
-                        <li><a href="https://ipr.zbj.com/about/fwxy" rel="nofollow" target="_blank" data-link="212"
-                               title="">服务协议</a></li>
-                        <li><a href="https://ipr.zbj.com/help" target="_blank" data-link="213" title="">新手帮助</a></li>
-                        <li><a href="https://ipr.zbj.com/ask/" rel="nofollow" target="_blank" data-link="214" title="">用户调查</a>
-                        </li>
-                        <li><a href="https://ipr.zbj.com/sitemap" target="_blank" data-link="215" title="">网站地图</a></li>
-                    </ul>
-                    <p>Copyright 2005-2019<span>重庆猪八戒网络有限公司</span>版权所有 渝ICP备10202274号-7 渝B2-20080005</p>
-                </div>
-            </div>
-            <div class="footer-right">
-                <div class="footer-right-media">
-                    <div class="hover-panel-bottom">
-                        <img src="https://rms.zhubajie.com/resource/redirect?key=homesite%2Ftask%2FQQ%E6%88%AA%E5%9B%BE.png%2Forigine%2Fb5fb6f6b-2459-4d39-87fd-1e4619919551"
-                             width="95" alt="" title="下单方便快捷资讯抢先了解">
-                        <p>下单方便快捷资讯抢先了解</p>
-                    </div>
-                    <div class="hover-panel-bottom hover-panel-last">
-                        <img src="https://rms.zhubajie.com/resource/redirect?key=homesite%2Ftask%2FQQ%E6%88%AA%E5%9B%BE20170614165152.png%2Forigine%2F775d461b-5ecc-42c5-8278-8911a80e22da"
-                             width="95" alt="" title="商标查询工具流程全程监控">
-                        <p>商标查询工具流程全程监控</p>
-                    </div>
-                </div>
-                <div class="footer-right-honour">
-                    <a class="infor-1" href="http://cms.zbjimg.com/zhubiaoju/certificate/sfdw.jpg" target="_blank"
-                       rel="nofollow"></a>
-                    <a class="infor-2" href="http://cms.zbjimg.com/zhubiaoju/certificate/xhhy.jpg" target="_blank"
-                       rel="nofollow"></a>
-                    <a class="infor-3" href="http://cms.zbjimg.com/zhubiaoju/certificate/sddw.jpg" target="_blank"
-                       rel="nofollow"></a>
-                    <a class="infor-4" href="http://cms.zbjimg.com/zhubiaoju/certificate/bqbh.jpg" target="_blank"
-                       rel="nofollow"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="feedback-modal">
-    <div class="feedback-modal-content">
-        <span class="feedback-title">用户反馈<a id="md-feedback-close" class="feedback-close">×</a></span>
-        <form class="feedback-form">
-            <input type="hidden" name="userType" value="1">
-            <input type="hidden" name="opinionSource" value="1">
-            <div class="feedback-radio-box">
-                <span>选择反馈类型</span>
-                <label class="first-radio feedback-icon checked">建议&amp;意见<input name="opinionType" type="radio"
-                                                                                 value="1" checked="checked">
-                </label>
-                <label class="feedback-icon">投诉<input name="opinionType" type="radio" value="2">
-                </label>
-                <label class="feedback-icon">其他<input name="opinionType" type="radio" value="3">
-                </label>
-            </div>
-            <div>
-                <span class="feedback-require">你遇到的问题或建议反馈给我们，我们会更好的为你服务。</span>
-                <textarea class="reset-input feedback-textarea" name="content" cols="30" rows="10"></textarea>
-                <div class="feedback-help-warning">反馈内容不能为空哦～</div>
-            </div>
-            <div>
-                <span>请留下你的手机号码，说不准会有惊喜哦～</span>
-                <div class="zbj-placeholder-wrap">
-                    <input class="reset-input top-bar-phone" name="phone" type="text" placeholder="仅八戒知识产权官方可见">
-                </div>
-                <div class="feedback-help-warning">手机号码格式不正确哦～</div>
-            </div>
-            <a id="md-feedback-submit" class="feedback-submit" href="javascript:;">提交</a>
-        </form>
-        <div class="feedback-loading">
-        </div>
-        <div class="feedback-result">
-            <div class="feedback-result-head">
-                <div class="feedback-result-title">
-                    <p class="feedback-text-success"><i
-                            class="feedback-icon success"></i><span>谢谢您提交的宝贵意见，我们会努力改进的！</span></p>
-                    <p class="feedback-text-fail hide"><i class="feedback-icon fail"></i><span>提交太过频繁, 请稍后再试~</span></p>
-                </div>
-            </div>
-            <div class="feedback-result-common">
-                <div class="feedback-result-top">
-                    <p><img src="//as.zbjimg.com/static/as-ipr-www/widget/common/header/img/dracode_7ade1be.jpg"></p>
-                    <p class="wechat">— 关注微信 —</p>
-                    <p class="wechat">手机查询更便捷</p>
-                </div>
-                <div class="feedback-result-foot">
-                    <span class="feedback-inline-block panel-icon panel-icon-round"></span>
-                    <div class="feedback-inline-block">
-                        <a class="foot-text"
-                           href="http://shangbiao.witmart.com/international?utm_source=TMSEARCH&amp;utm_medium=SUCCESSPOPUP&amp;utm_campaign=ZHUBIAOJU">注册国际商标<br>点击免费查询</a>
-                    </div>
-                    <div class="feedback-inline-block feedback-line"></div>
-                    <span class="feedback-inline-block panel-icon panel-icon-search"></span>
-                    <div class="feedback-inline-block">
-                        <a class="foot-text" href="https://market.ipr.zbj.com">现成好商标<br>瞄一眼</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -768,8 +553,6 @@
 
 
 <script>
-
-
     $(function () {
         $("#J-ui-win-close").click(function () {
             if(!$("#msgshow").is(':hidden')){
@@ -777,12 +560,22 @@
             }
             $("#index-box").hide();
             $("#J-chance-ui").hide();
+            $("#reg_name").val("");
         });
         $(".J-chance-btn").click(function () {
             $("#index-box").show();
             $("#J-chance-ui").show();
         });
+        $('#J-mobile').bind('input propertychange', function() {
+            if($("#J-mobile").hasClass("zbj-form-item-error")){
+                $("#J-mobile").removeClass("zbj-form-item-error");
+                $("#errormsg").html("");
+            }
+        });
         $("#chance").click(function () {
+            if(!validata($("#reg_name").val(),$("#mobile").val())){
+                return;
+            }
             $.ajax({
                 url:"/ajaxQueryZl",
                 type:"POST",
@@ -796,7 +589,6 @@
                     $("#chance").hide();
                 }
             });
-
         })
     });
 
@@ -804,6 +596,42 @@
         $("#index-box").show();
         $("#J-chance-ui").show();
         $("#J-radio").show();
+        $("#J-user").show();
+        $("#J-content").show();
+    }
+    function shosl() {
+        $("#J-user").hide();
+        $("#J-content").hide();
+    }
+    function hidemsgs() {
+        $("#reg_name").val($("#descdesc").val());
+        $("#J-user").show();
+        $("#J-content").show();
+    }
+    function validata(desc,mobile) {
+        if(mobile==null || mobile==""){
+            if(!$("#J-mobile").hasClass("zbj-form-item-error")){
+                $("#J-mobile").addClass("zbj-form-item-error");
+            }
+            $("#errormsg").html("请填写联系号码！");
+            return false;
+        }
+        if(!checkMobile(mobile)){
+            if(!$("#J-mobile").hasClass("zbj-form-item-error")){
+                $("#J-mobile").addClass("zbj-form-item-error");
+            }
+            $("#errormsg").html("请输入正确手机号码！");
+            return false;
+        }
+        return true;
+    }
+    function checkMobile(str) {
+        var reg = /^1[0-9]{10}$/;
+        if (reg.test(str)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 </script>
 
@@ -820,14 +648,6 @@
             <div class="ui-win-main">
                 <form id="search-form" novalidate="novalidate"
                       data-widget-cid="widget-0">
-                    <input type="hidden" name="service_id" value="44">
-                    <input type="hidden" name="sid" value="1">
-                    <input type="hidden" name="warrant" value="">
-                    <input type="hidden" name="is_noworry" value="">
-                    <input type="hidden" name="is_default" value="0">
-                    <input type="hidden" name="entry" value="9">
-                    <input type="hidden" name="createMode" value="1">
-                    <input type="hidden" name="description" value="立即查询">
 
                     <div class="zbj-form-item" id="J-content">
                         <label for="reg_name" class="zbj-label J-reg-name">查询内容：</label>
@@ -843,7 +663,7 @@
                         <div class="zbj-input-block">
                             <input id="mobile" name="mobile" class="zbj-input" type="text" maxlength="11"
                                    placeholder="请输入您的手机号，便于接收查询结果" data-widget-cid="widget-2" data-explain=""></div>
-                        <div class="zbj-form-explain"></div>
+                        <div class="zbj-form-explain" id="errormsg"></div>
                     </div>
                     <div class="zbj-form-item" id="J-user" >
                         <label for="reg_username" class="zbj-label">联系人：</label>
@@ -857,7 +677,8 @@
                     <div class="ui-win-content textCenter clearfix" style="margin-top:20px;">
                         <input type="button" id="chance" class="J-submit-btn bj-btn-apply" value="立即查询">
                     </div>
-                    <p class="form-infor" id="msgshow" style="display: none;position: inherit;    font-size: 16px;">我们的专利人员<i class="number-all">13808533479</i>会尽快与您联系</p>
+                    <p class="form-infor" id="msgshow" style="display: none;position: inherit;  ">
+                        请耐心等候，您的知识产权顾问<i class="number-all">13808533479</i>会及时反馈查询结果</p>
                 </form>
             </div>
         </div>

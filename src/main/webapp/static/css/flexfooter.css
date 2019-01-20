@@ -1,0 +1,252 @@
+/**
+* 搴曢儴宸ュ叿鏍�
+*/
+.footer-wrap{
+    height: 1.6rem;
+    padding-top: 0.266667rem;
+    /*background: #ededed;*/
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 5.0rem;
+    max-width: 10.0rem;
+    margin: auto;
+    z-index: 10;
+}
+.auto-block{
+    margin-bottom: 1.6rem;
+}
+.zbj-tabbar {
+    width: 100%;
+    height: 98px;
+    position: fixed;
+    bottom:-3rem;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    padding: 0;
+    background-color: #ffffff;
+    table-layout: fixed;
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    min-width: 5.0rem;
+    max-width: 10.0rem;
+    margin: auto;
+}
+.footer-wrap .zbj-tabbar{
+    bottom: 0;
+}
+.zbj-tabbar:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dddddd;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .zbj-tabbar:before {
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+    .zbj-tabbar:before {
+        -webkit-transform: scaleY(0.33);
+        transform: scaleY(0.33);
+    }
+}
+.zbj-tabbar:after {
+    display: none;
+}
+.zbj-tabbar .zbj-tabbar-item {
+    position: relative;
+    display: table-cell;
+    width: 1%;
+    height: 49px;
+    text-align: center;
+    vertical-align: middle;
+    color: #868686;
+}
+.zbj-tabbar .zbj-tabbar-item.active {
+    color: #ff6900;
+    text-decoration: none;
+}
+.zbj-tabbar .zbj-tabbar-item [class^="icon-"] {
+    height: 0.6666666666666666rem;
+    line-height:0.6666666666666666rem;
+    font-size: 21px;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 100;
+    position: relative;
+    top: 3px;
+}
+.zbj-tabbar .zbj-tabbar-item [class^="icon-"] ~ .zbj-tabbar-label {
+    display: block;
+    font-size: 14px;
+}
+
+
+.zbj-tabbar {
+    height: 1.6rem;
+    -webkit-box-shadow: 0 0 1px 0 #eee;
+    box-shadow: 0 0 1px 0 #eee;
+    background-color: #fff;
+}
+.zbj-tabbar:before {
+    background: transparent;
+}
+.zbj-tabbar a {
+    text-decoration: none;
+}
+.zbj-tabbar .zbj-tabbar-item {
+    height: 1.6rem;
+    color: #666;
+}
+.zbj-tabbar .zbj-tabbar-item i {
+    width: 0.6666666666666666rem;
+    overflow: hidden;
+    display: inline-block;
+}
+.zbj-tabbar .zbj-tabbar-item.active {
+    color: #00ceae;
+}
+.zbj-tabbar .zbj-tabbar-item.active .icon-index {
+    background: url("../img/icon-nav-index-active.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item.active .icon-service {
+    background: url("../img/icon-nav-fw-active.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item.active .icon-consult {
+    background: url("../img/icon-nav-zx-active.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item.active .icon-myuser {
+    background: url("../img/icon-nav-user-active.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item i.icon-index {
+    background: url("../img/icon-nav-index.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item i.icon-service {
+    background: url("../img/icon-nav-fw.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item i.icon-consult {
+    background: url("../img/icon-nav-zx.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item i.icon-myuser {
+    background: url("../img/icon-nav-user.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.zbj-tabbar .zbj-tabbar-item .zbj-tabbar-label {
+    font-size: 0.3466666666666667rem !important;
+}
+.zbj-tabbar .ipr-tabbar-item .icon-category-back {
+    height:  0.6666666666666666rem;
+    line-height:  0.6666666666666666rem;
+    font-size: 21px;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 100;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+}
+.zbj-tabbar .ipr-tabbar-item .icon-category-market {
+    width: 1.0666666666666667rem;
+    height:1.0666666666666667rem;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    background: #33cc99;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    top: -0.5333333333333333rem;
+    left: 50%;
+    margin-left: -0.6rem;
+    border: 0.13333333333333333rem solid #fff;
+}
+.zbj-tabbar .ipr-tabbar-item .icon-category-market i {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 0.6666666666666666rem;
+    height:  0.6666666666666666rem;
+    display: inline-block;
+    background: url("../img/icon-nav-market.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.hide{
+    display: none;
+}
+.cms-ac-footer {
+    position: fixed;
+    z-index: 100;
+    display: block;
+    width: 100%;
+    height: 2.13333333rem;
+    bottom: 0;
+}
+
+.cms-ac-footer-close {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: .45333333rem;
+    height: .45333333rem;
+    right: .45333333rem;
+    bottom: 3.2rem;
+}
+
+.cms-ac-footer-close img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.cms-ac-footer-content {
+    position: relative;
+    display: block;
+    width: 9.2rem;
+    height: 1.92rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2rem;
+    bottom: 1.6rem;
+}
+
+.cms-ac-footer-content img {
+    display: block;
+    width: 9.2rem;
+    height: 1.92rem;
+}

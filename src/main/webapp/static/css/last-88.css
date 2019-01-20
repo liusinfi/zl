@@ -1,0 +1,43 @@
+.a88-p-1 {
+    font-size: 0.37333rem;
+    color: #5e7397!important;
+    vertical-align: middle;
+    margin-top: 0.2rem!important;
+    text-align: left!important;
+    padding-bottom: 0!important;
+}
+
+.a88-s-1 {
+    display: inline-block;
+    width: 1rem;
+    height: 0.7rem;
+    margin-right: 0.1rem;
+    vertical-align: middle;
+    background: url("../img/ac1.png") no-repeat;
+    background-size: 100%;
+}
+
+.a88-p-2 {
+    font-size: 0.37333rem;
+    color: #5e7397!important;
+    vertical-align: middle;
+    margin-top: 0.2rem!important;
+    text-align: left!important;
+    padding-bottom: 0.2rem!important;
+}
+
+.a88-s-2 {
+    display: inline-block;
+    width: 1.76rem;
+    height: 0.7rem;
+    margin-right: 0.1rem;
+    vertical-align: middle;
+    background: url("../img/ac2.png") no-repeat;
+    background-size: 100%;
+}
+
+.a88-s-3 {
+    display: inline-block;
+    width: 7rem;
+    vertical-align: top;
+}

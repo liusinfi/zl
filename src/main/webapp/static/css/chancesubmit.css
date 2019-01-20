@@ -1,0 +1,189 @@
+/**
+* Function: 鏈轰細鎻愪氦鍏敤鏍峰紡绫伙紝鍙牴鎹渶姹傛墿灞�
+* Author:   huangchaowei
+* Email:    huangchaowei@zbj.com
+* Date:     2016-06-22
+* Version:  V1.0
+* Modify锛�  2016-09-08 huangchaowei 澧炲姞鍔ㄧ敾鏁堟灉
+**/
+.module-show-chance {
+    height: 100%;
+    overflow: hidden;
+}
+.module-chance {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    opacity: 0;
+    background: rgba(0, 0, 0, .6);
+}
+.module-chance.visible {
+    visibility: visible;
+    opacity: 1;
+}
+.module-chance-main {
+    position: fixed;
+    z-index: 100;
+    top: 12%;
+    left: 5%;
+    width: 90%;
+    height: 7.733333rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    transition: all .25s;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+    opacity: 0;
+    background: #fff;
+}
+.module-chance-main.visible {
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.module-chance-title {
+    position: relative;
+    width: 99%;
+    height: 1.25rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: bold;
+    line-height: 1.25rem;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #258e3d;
+}
+.module-chance-close {
+    position: absolute;
+    top: .125rem;
+    right: .125rem;
+    display: block;
+    overflow: hidden;
+    width: 1.541667rem;
+    height: 1.416667rem;
+    -webkit-transform: scale(.4);
+    -moz-transform: scale(.4);
+    transform: scale(.4);
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    transform-origin: top right;
+    background: url('../img/ico.png') no-repeat;
+    background-position: 0 -5.041667rem;
+    background-size: 1.541667rem 6.458333rem;
+}
+.module-chance-msg {
+    height: .625rem;
+    margin: .333333rem auto 0;
+    line-height: .625rem;
+    text-align: center;
+    color: #258e3d;
+}
+.module-chance-panel {
+    position: relative;
+    overflow: hidden;
+    height: 1.125rem;
+    margin: .466667rem;
+    border: 2px solid #dedede;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.module-chance-label {
+    display: inline-block;
+    width: 2.0rem;
+    height: 1.125rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    line-height: 1.125rem;
+    text-align: center;
+    color: #444;
+    background-color: #e6e6e6;
+}
+.module-chance-label span {
+    color: #ff0101;
+}
+.module-chance-txt {
+    display: inline-block;
+    width: 100%;
+    padding: .386667rem 0;
+    padding-left: 2%;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    line-height: .346667rem;
+    color: #333;
+    outline: 0;
+    background: #fff;
+}
+.module-chance-btn {
+    width: 89.8%;
+    height: 1.125rem;
+    margin-top: .4rem;
+    margin-left: .466667rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    line-height: 1.125rem;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #269342;
+}
+.module-chance-modify {
+    position: absolute;
+    top: 50%;
+    right: .3125rem;
+    display: block;
+    padding: .078125rem;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    background-color: #ccc;
+}
+.module-chance-next {
+    margin-top: .533333rem;
+}
+.module-chance-success {
+    padding: .266667rem;
+    text-align: center;
+}
+.module-chance-ok {
+    position: relative;
+    display: block;
+    width: 1.333333rem;
+    height: 1.333333rem;
+    margin: 0 auto;
+    border-radius: .666667rem;
+    background-color: #22c064;
+}
+.module-chance-check {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: .533333rem;
+    height: .266667rem;
+    margin-top: -.266667rem;
+    margin-left: -.266667rem;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}

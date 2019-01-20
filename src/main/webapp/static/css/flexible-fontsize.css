@@ -1,0 +1,65 @@
+/*瀛椾綋缁熶竴璁剧疆*/
+.m-font-12 {
+    font-size: 12px;
+}
+.m-font-13 {
+    font-size: 13px;
+}
+.m-font-14 {
+    font-size: 14px;
+}
+.m-font-15 {
+    font-size: 15px;
+}
+.m-font-16 {
+    font-size: 16px;
+}
+.m-font-18 {
+    font-size: 18px;
+}
+.m-font-20 {
+    font-size: 20px;
+}
+[data-dpr='2'] .m-font-12 {
+    font-size: 24px;
+}
+[data-dpr='2'] .m-font-13 {
+    font-size: 26px;
+}
+[data-dpr='2'] .m-font-14 {
+    font-size: 28px;
+}
+[data-dpr='2'] .m-font-15 {
+    font-size: 30px;
+}
+[data-dpr='2'] .m-font-16 {
+    font-size: 32px;
+}
+[data-dpr='2'] .m-font-18 {
+    font-size: 36px;
+}
+[data-dpr='2'] .m-font-20 {
+    font-size: 40px;
+}
+
+[data-dpr='3'] .m-font-12 {
+    font-size: 36px;
+}
+[data-dpr='3'] .m-font-13 {
+    font-size: 39px;
+}
+[data-dpr='3'] .m-font-14 {
+    font-size: 42px;
+}
+[data-dpr='3'] .m-font-15 {
+    font-size: 45px;
+}
+[data-dpr='3'] .m-font-16 {
+    font-size: 48px;
+}
+[data-dpr='3'] .m-font-18 {
+    font-size: 54px;
+}
+[data-dpr='3'] .m-font-20 {
+    font-size: 60px;
+}

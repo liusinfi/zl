@@ -2,7 +2,7 @@ spring:
   mail:
     host: smtp.163.com
     username: user
-    password: password
+    password: pass
     properties:
       mail:
         smtp:
@@ -14,6 +14,8 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
+    favicon:
+      enabled: true
   thymeleaf:
     cache: false
     enabled: false
