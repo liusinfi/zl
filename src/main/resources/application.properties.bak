@@ -6,3 +6,7 @@ spring.http.encoding.force=true
 spring.http.encoding.charset=UTF-8
 spring.http.encoding.enabled=true
 server.tomcat.uri-encoding=UTF-8
+
+spring.mail.host=smtp.163.com
+spring.mail.username=ljinyuan10@163.com
+spring.mail.password=
