@@ -3,123 +3,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head autoconcat="1">
-    <script src=" https:////hm.baidu.com/hm.js?cafadb66852ad0bdb3be1492bfe914ea"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-transform ">
-    <title>专利查询,专利申请查询,专利查询网就上八戒知识产权</title>
+    <title>专利查询,专利申请查询,专利查询网</title>
     <meta name="keywords" content="专利查询,专利查询网,发明专利查询">
     <meta name="description"
-          content="专利申请查询就上八戒知识产权-提供发明专利、实用新型专利、外观专利等申请前的查询服务,先查询再申请,防止专利侵权.专业顾问为您一对一服务，价格公开透明，无任何额外消费.">
+          content="专利申请查询-提供发明专利、实用新型专利、外观专利等申请前的查询服务,先查询再申请,防止专利侵权.专业顾问为您一对一服务，价格公开透明，无任何额外消费.">
 
     <meta name="360-site-verification" content="77e88fa96898c4e0de55c512d98cf44d">
     <meta name="baidu-site-verification" content="iU4b28DEAC">
     <link rel="canonical" href="https://zt.ipr.zbj.com/patent/zlcx/">
 
 
-    <link rel="shortcut icon" href="//as.zbjimg.com/static/as-ipr-www/common/default/faviconipr.ico"
-          type="image/x-icon">
-    <script src="https://hm.baidu.com/hm.js?a470338ce4acadcbff35fd90b013898f"></script>
-    <script type="text/javascript" async=""
-            src="https://t5.zbjimg.com/t5s/output/common/js/count.js?2019011210"></script>
-    <script>
-        (function (w, d, m) {
-            w[m] = w[m] || function () {
-                (w[m].q = w[m].q || []).push(arguments)
-            }, w[m].r = +new Date;
-        })(window, document, "MonitorHD");
-    </script>
-
-
-    <script>MonitorHD.sh = +new Date;</script>
-    <script>
-        (function (global) {
-
-            var dbg = getCookie('ga_enabled');
-
-            var reportUrl = '//log.tianpeng.com/dot.gif?info=';
-            global.gMonitor = {
-                checkCdn: function () {
-                    if (checkOk()) {
-                        return;
-                    }
-                    var err = {
-                        'log-type': 'cdn-error'
-                    };
-                    this.report(err);
-                },
-                imgError: function (imgUrl) {
-                    var err = {
-                        'log-type': 'img-error',
-                        'img-url': imgUrl
-                    };
-                    this.report(err);
-                },
-                report: function (data) {
-                    if (!window.ZBJInfo
-                        || (window.ZBJInfo.runtime != 'product' && !dbg)
-                        || document.location.protocol == 'https:') {
-                        return;
-                    }
-
-                    var info = this.serialize(data);
-                    var img = new Image();
-                    img.src = reportUrl + encodeURIComponent(info);
-                },
-                serialize: function (data) {
-                    data['uid'] = getCookie('userid');
-
-                    var rs = ['{'];
-                    var idx = 0;
-                    for (var i in data) {
-                        if (idx > 0) {
-                            rs.push(',');
-                        }
-                        rs.push('"' + i + '": "' + data[i] + '"');
-                        idx++;
-                    }
-                    rs.push('}');
-                    return rs.join('');
-                }
-            };
-
-            function checkOk() {
-                var isJsOK = typeof window.seajs !== 'undefined';
-
-                var margin;
-                if (window.getComputedStyle) {
-                    margin = window.getComputedStyle(document.body, null).margin;
-                } else if (document.body.currentStyle) {
-                    margin = document.body.currentStyle.margin;
-                }
-
-                var isCssOk = parseInt(margin) == 0;
-                return isCssOk && isJsOK;
-            }
-
-            function getCookie(name) {
-                var value = document.cookie;
-                var start = value.indexOf(" " + name + "=");
-                if (start == -1) {
-                    start = value.indexOf(name + "=");
-                    if (start > 0) {
-                        return null;
-                    }
-                }
-                if (start == -1) {
-                    return null;
-                }
-
-                start = value.indexOf("=", start) + 1;
-                var end = value.indexOf(";", start);
-                if (end == -1) {
-                    end = value.length;
-                }
-                return decodeURIComponent(value.substring(start, end));
-            }
-        })(window);
-    </script>
     <link rel="stylesheet" type="text/css" href="//as.zbjimg.com/??/static/as-common/global/global_d80dcf1.css">
     <link rel="stylesheet" type="text/css"
           href="//as.zbjimg.com/??/static/as-ipr-www/widget/common/2018-header/head_a3b64c5.css,/static/as-ipr-zt/widget/common/nav/nav_e0edd43.css,/static/as-ipr-www/widget/2017index/mod_left_ad_c491f26.css,/static/as-ipr-www/widget/2017index/mod_righttool_f9ec6e3.css,/static/as-ipr-www/widget/common/2017-footer/footer_14b0422.css,/static/as-ipr-www/widget/common/topbar/topbar_72b9067.css">
@@ -152,11 +49,16 @@
           href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/chance-panel/??chance_5ae07de.css">
     <link charset="utf-8" rel="stylesheet"
           href="//as.zbjimg.com/static/as-ipr-www/widget/ui/components/continue-panel/??continue_36003f9.css">
+    <style type="text/css">
+        .alert-tips{
+            display: none;
+        }
+    </style>
 </head>
 
 <body class="">
 
-<div class="top-chance">
+<%--<div class="top-chance">
     <div class="ipr-nav">
         <div class="ipr-wrap">
             <div class="nav-logo">
@@ -166,7 +68,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>--%>
 
 
 <div class="main yahei">
@@ -255,8 +157,8 @@
         <li data-floor="5" class="">专家团队</li>
         <li data-floor="6" class="">服务保障</li>
         <li class="J-chance-btn J-only-tel J-not-floor nav-search">立即查询</li>
-        <li class="J-open-nav J-not-floor open-nav">收起<i class="up"></i></li>
-        <li class="J-close-nav J-not-floor close-nav hide">展开<i class="down"></i></li>
+        <%--<li class="J-open-nav J-not-floor open-nav">收起<i class="up"></i></li>
+        <li class="J-close-nav J-not-floor close-nav hide">展开<i class="down"></i></li>--%>
     </ul>
     <div class="J-floor block-2">
         <div class="zbj-grid">
@@ -677,8 +579,8 @@
     <div class="ipr-grid">
         <div class="footer-top clearfix">
             <ul>
-                <li>400-023-0033</li>
-                <li>023-88392666</li>
+                <%--<li>400-023-0033</li>--%>
+                <li>13809988986</li>
             </ul>
             <p class="footer-work-time">
                 <span>周一至周五：9:00 - 20:00</span>
@@ -789,20 +691,7 @@
         </div>
     </div>
 </div>
-<div class="brand-consult-wrap brand-consult-flow" style="display: none;">
-    <div class="brand-consult">
-        <a class="comfirm" id="pig-head" rel="nofollow" target="_blank"
-           onclick="_gaq.push(['_trackEvent', 'contact', 'pig-head']);qimoChatClick();">
-            <i class="pig-head"></i>
-            <i class="pig-body"></i>
-        </a>
-    </div>
-    <div class="zbj-bottom-btn">
-        <a class="feedback-icon home-icon zbj-feedback j-expand" href="javascript:;"></a>
-        <a class="feedback-icon home-icon zbj-test j-expand" href="https://ipr.zbj.com/ask"></a>
-        <a class="J-zbj-top feedback-icon home-icon zbj-top" href="javascript:;" style="display:block"></a>
-    </div>
-</div>
+
 <div class="feedback-modal">
     <div class="feedback-modal-content">
         <span class="feedback-title">用户反馈<a id="md-feedback-close" class="feedback-close">×</a></span>
@@ -867,183 +756,25 @@
 </div>
 
 
-<script>
-    window.ZBJInfo = {
-        pageDomain: "zbj.com",
-        baseURI: "zbj.com",
-        newStaticLibURI: "//as.zbjimg.com",
-        asStaticLibURI: "//as.zbjimg.com",
-        rakeProject: true,
-        upFileUrl: "https://p7.zbjimg.com/",
-        t6Url: "https://t6.zbjimg.com",
-        t5Url: "https://t5.zbjimg.com",
-        webIMToken: "ao7kafb3bdojhgyevhu21ezyi5kuqr1u",
-        isTianpengSite: 0,
-        isIPRSite: 1,
-        qiniuUploadTokenUrl: "https://rms.zbj.com",
-        runtime: "product",
-        tpWWWUrl: "http://www.tianpeng.com",
-        zhubiaojuURI: ""
 
 
-    };
-    window.monitorConfig = {
-        product: 'zhubajie'
-    };
-</script>
-
-
-
-<script>
-    //判断是否支持WebP
-    (function (window) {
-        if (!window.ZBJInfo.sWebP) {
-            var img = new Image();
-            img.onload = img.onerror = function () {
-                window.ZBJInfo.sWebP = (img.width > 0) && (img.height > 0);
-            };
-            img.src = 'data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==';
-        }
-    }(window));
-</script>
-<script>
-</script>
 
 
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script id="seajsnode" type="text/javascript"
-        src="//as.zbjimg.com/??/static/as-common/lib/jquery/jquery171.js,static/as-common/lib/seajs/seajs/2.1.1/sea-debug.js,static/as-common/lib/seajs/seajs-combo/1.0.1/seajs-combo-debug.js,static/as-common/lib/seajs/seajs-style/1.0.0/seajs-style-debug.js,static/as-common/lib/seajs/seajs-text/1.0.3/seajs-text-debug.js"></script>
-
-<script src="//as.zbjimg.com/static/as-common/seajs-config_41dc003.js"></script>
-<script src="//zhumacs.zbj.com/service/tomoko-seajs"></script>
-<script src="//as.zbjimg.com/static/as-ipr-zt/seajs-config_02d8e50.js"></script>
-
-<script>
-    window.ZBJInfo = {
-        pageDomain: "zbj.com",
-        baseURI: "zbj.com",
-        newStaticLibURI: "//as.zbjimg.com",
-        asStaticLibURI: "//as.zbjimg.com",
-        rakeProject: true,
-        upFileUrl: "https://p7.zbjimg.com/",
-        t6Url: "https://t6.zbjimg.com",
-        t5Url: "https://t5.zbjimg.com",
-        webIMToken: "ao7kafb3bdojhgyevhu21ezyi5kuqr1u",
-        isTianpengSite: 0,
-        isIPRSite: 1,
-        qiniuUploadTokenUrl: "https://rms.zbj.com",
-        runtime: "product",
-        tpWWWUrl: "http://www.tianpeng.com",
-        zhubiaojuURI: ""
 
 
-    };
-    window.monitorConfig = {
-        product: 'zhubajie'
-    };
-</script>
-<script>
-    //判断是否支持WebP
-    (function (window) {
-        if (!window.ZBJInfo.sWebP) {
-            var img = new Image();
-            img.onload = img.onerror = function () {
-                window.ZBJInfo.sWebP = (img.width > 0) && (img.height > 0);
-            };
-            img.src = 'data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==';
-        }
-    }(window));
-</script>
-<script>
-</script>
 
 
-<script id="seajsnode" type="text/javascript"
-        src="//as.zbjimg.com/??/static/as-common/lib/jquery/jquery171.js,static/as-common/lib/seajs/seajs/2.1.1/sea-debug.js,static/as-common/lib/seajs/seajs-combo/1.0.1/seajs-combo-debug.js,static/as-common/lib/seajs/seajs-style/1.0.0/seajs-style-debug.js,static/as-common/lib/seajs/seajs-text/1.0.3/seajs-text-debug.js"></script>
-
-<script src="//as.zbjimg.com/static/as-common/seajs-config_41dc003.js"></script>
-<script src="//zhumacs.zbj.com/service/tomoko-seajs"></script>
-<script src="//as.zbjimg.com/static/as-ipr-zt/seajs-config_02d8e50.js"></script>
-<script src="//as.zbjimg.com/static/as-ipr-www/seajs-config_aa6f353.js"></script>
-<script>
-    window.monitorConfig = {
-        product: 'ipr'
-    };
-    window.IPRInfor = {
-        zc_ipr_url: "",
-        market_ipr_url: "https:\/\/market.ipr.zbj.com",
-        ipr_88_url: "https:\/\/88.ipr.zbj.com",
-        www_ipr_url: "https:\/\/ipr.zbj.com",
-        m_ipr_url: "https:\/\/m.ipr.zbj.com",
-        news_ipr_url: "https:\/\/news.ipr.zbj.com",
-        login_url: "https:\/\/login.zbj.com",
-        cookieDomain: ".ipr.zbj.com",
-        zt_ipr_url: "https:\/\/zt.ipr.zbj.com",
-        boss_track_url: "\/\/track-boss.ipr.zbj.com",
-        lazy_placeholder: "//as.zbjimg.com/static/as-ipr-www/common/default/img/pixel_974b6f5.png",
-        domain: "zbj.com",
-        activityStatus: "3",
-        activityId: "23",
-        cc_ipr_url: "https:\/\/www.kubanquan.com",
-        act_ipr_url: "https:\/\/act.ipr.zbj.com",
-        newUserUrl: "https:\/\/user.ipr.zbj.com"
-    }
-    // 隐藏之前的那个右侧工具栏
-    $('.brand-consult-wrap').hide();
-
-</script>
-<script type="text/javascript" src="//wpa.b.qq.com/cgi/wpa.php"></script>
-<div class="hide">
-    <script src="https://s13.cnzz.com/z_stat.php?id=1272223535&amp;web_id=1272223535" type="text/javascript"></script>
-    <script src="https://c.cnzz.com/core.php?web_id=1272223535&amp;t=z" charset="utf-8" type="text/javascript"></script>
-    <a href="https://www.cnzz.com/stat/website.php?web_id=1272223535" target="_blank" title="站长统计">站长统计</a>
-    <script type="text/javascript">
-        var cnzz_protocol = "https://";
-        document.write(unescape("%3Cspan id='cnzz_stat_icon_1272223850'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1272223850%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <span id="cnzz_stat_icon_1272223850"><a href="https://www.cnzz.com/stat/website.php?web_id=1272223850"
-                                            target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0"
-                                                                              src="https://icon.cnzz.com/img/pic1.gif"></a></span>
-    <script src="https://s22.cnzz.com/z_stat.php?id=1272223850&amp;show=pic1" type="text/javascript"></script>
-    <script src="https://c.cnzz.com/core.php?web_id=1272223850&amp;show=pic1&amp;t=z" charset="utf-8"
-            type="text/javascript"></script>
-</div>
-<script type="text/javascript"
-        src="//user-analysis.7moor.com/service?action=page.load&amp;data=%7B%22userId%22%3A%22e0c34f21-1348-11e9-a99d-6da40c60d412%22%2C%22sessionId%22%3A%2285249971-15ab-11e9-b828-4b574ef5e854%22%2C%22account%22%3A%22N00000013539%22%2C%22accessId%22%3A%2231d48a00-6a2b-11e7-b8ff-2ddb29790098%22%2C%22platform%22%3A%7B%22browserName%22%3A%22Chrome%22%2C%22browserVersion%22%3A%2271.0.3578.98%22%2C%22osInfo%22%3A%22Windows%207%20%2F%20Server%202008%20R2%2064-bit%22%2C%22platformDescription%22%3A%22Chrome%2071.0.3578.98%20on%20Windows%207%20%2F%20Server%202008%20R2%2064-bit%22%2C%22seosource%22%3A%22%E7%AB%99%E5%86%85%22%2C%22seokeywords%22%3A%22%22%7D%2C%22page%22%3A%7B%22title%22%3A%22%E4%B8%93%E5%88%A9%E6%9F%A5%E8%AF%A2%2C%E4%B8%93%E5%88%A9%E7%94%B3%E8%AF%B7%E6%9F%A5%E8%AF%A2%2C%E4%B8%93%E5%88%A9%E6%9F%A5%E8%AF%A2%E7%BD%91%E5%B0%B1%E4%B8%8A%E5%85%AB%E6%88%92%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%22%2C%22prevUrl%22%3A%22%22%2C%22currentUrl%22%3A%22https%3A%2F%2Fzt.ipr.zbj.com%2Fpatent%2Fzlcx%2F%3F_union_uid%3D17873097%26_union_itemid%3D534419%22%7D%2C%22type%22%3A%22load%22%2C%22isOpenChat%22%3Afalse%2C%22rootDomain%22%3A%22zbj.com%22%7D&amp;callback=ubaGetCallback"></script>
-
-
-<script>if (window.__global_utopia_script__) {
-    for (var i = 0; i < window.__global_utopia_script__.length; i++) {
-        for (var j = 0; j < window.__global_utopia_script__[i].length; j++) {
-            seajs.use(window.__global_utopia_script__[i][j])
-        }
-    }
-}</script>
-
-
-<script type="text/javascript">!function () {
-    seajs.use(["as-ipr-zt:static/common/common.js", "as-ipr-zt:static/pc/20170509zlcx/index.js"])
-}();</script>
 
 
 <script>
-    var date = new Date();
 
-    //添加时间戳，精确到小时，便于文件更新
-    var timestamp = '' + date.getFullYear() + date.getMonth() + 1 + date.getDate() + date.getHours();
-
-    var scriptUrl = 'https://t5.zbjimg.com/t5s/output/common/js/count.js?' + timestamp;
-
-    var countScript = document.createElement('script');
-    countScript.type = 'text/javascript';
-    countScript.async = 1;
-    countScript.src = scriptUrl;
-
-    var sourceScript = document.getElementsByTagName('script')[0];
-    sourceScript.parentNode.insertBefore(countScript, sourceScript);
 
     $(function () {
         $("#J-ui-win-close").click(function () {
+            if(!$("#msgshow").is(':hidden')){
+                window.location.reload();
+            }
             $("#index-box").hide();
             $("#J-chance-ui").hide();
         });
@@ -1052,24 +783,30 @@
             $("#J-chance-ui").show();
         });
         $("#chance").click(function () {
-            $("#search-form").submit();
+            $.ajax({
+                url:"/ajaxQueryZl",
+                type:"POST",
+                data:{'desc':$("#reg_name").val(),'mobile':$("#mobile").val(),'user':$("#reg_username").val()},
+                success:function(result){
+                    $("#titlechange").html("您已成功提交查询!");
+                    $("#msgshow").show();
+                    $("#J-user").hide();
+                    $("#J-mobile").hide();
+                    $("#J-content").hide();
+                    $("#chance").hide();
+                }
+            });
+
         })
     });
 
     function showmes() {
         $("#index-box").show();
         $("#J-chance-ui").show();
+        $("#J-radio").show();
     }
 </script>
-<script>
-    MonitorHD.sd = +new Date;
-    seajs.use("as-common:components/sai/seer/seer.js");
 
-    // 通过判断 seajs 是否加载，来检测 js 加载情况
-    if (window.gMonitor) {
-        window.gMonitor.checkCdn();
-    }
-</script>
 
 
 <div id="Pinbox-extension-installed"></div>
@@ -1077,11 +814,11 @@
     <div class="overly-bg"></div>
     <div class="ui-win-search j-chance-panel" id="index-box" style="display: none;">
         <div class="chance-panel-bg">
-            <div class="ui-win-title J-ui-win-title">专利免费查询</div>
+            <div class="ui-win-title J-ui-win-title" id="titlechange">专利免费查询</div>
             <div class="ui-win-load"></div>
             <div class="ui-win-close chance-close j-close-btn" id="J-ui-win-close">×</div>
             <div class="ui-win-main">
-                <form id="search-form" action="/queryZL" method="post" novalidate="novalidate"
+                <form id="search-form" novalidate="novalidate"
                       data-widget-cid="widget-0">
                     <input type="hidden" name="service_id" value="44">
                     <input type="hidden" name="sid" value="1">
@@ -1091,22 +828,14 @@
                     <input type="hidden" name="entry" value="9">
                     <input type="hidden" name="createMode" value="1">
                     <input type="hidden" name="description" value="立即查询">
-                    <p class="form-infor" style="display: none;">今日已有<i class="number-today">640</i>人获取查询结果，总查询人数已达<i
-                            class="number-all">2649897</i>人</p>
-                    <div class="zbj-form-item" style="display: none;">
+
+                    <div class="zbj-form-item" id="J-content">
                         <label for="reg_name" class="zbj-label J-reg-name">查询内容：</label>
                         <div class="zbj-input-block">
                             <input id="reg_name" name="reg_name" class="zbj-input" type="text"
                                    placeholder="专利名称，如“多功能台灯”">
                         </div>
                         <div class="zbj-form-explain"></div>
-                    </div>
-                    <div class="zbj-form-item hide " id="J-radio" style="display: none;">
-                        <label class="zbj-label"><span class="zbj-form-required">*</span>联系电话：</label>
-                        <input id="radio-mobile" name="radio-mobile" class="zbj-radio" type="radio" checked="">
-                        <p class="zbj-form-telphone"></p>                        <span
-                            class="zbj-form-valid">(已验证)</span>
-                        <p class="other-phone-number primary" id="J-other-mobile">使用其他号码</p>
                     </div>
                     <div class="zbj-form-item" id="J-mobile">
                         <div class="prompt">信息保护中，请放心填写！</div>
@@ -1116,7 +845,7 @@
                                    placeholder="请输入您的手机号，便于接收查询结果" data-widget-cid="widget-2" data-explain=""></div>
                         <div class="zbj-form-explain"></div>
                     </div>
-                    <div class="zbj-form-item" style="display: none;">
+                    <div class="zbj-form-item" id="J-user" >
                         <label for="reg_username" class="zbj-label">联系人：</label>
                         <div class="zbj-input-block">
                             <input id="reg_username" name="reg_username" class="zbj-input" type="text"
@@ -1124,28 +853,11 @@
                         </div>
                         <div class="zbj-form-explain"></div>
                     </div>
-                    <div class="zbj-form-item J-graphic-code-wrap hide">
-                        <label for="graphic-code" class="zbj-label required">图形码：</label>
-                        <div class="zbj-input-block">
-                            <input id="graphic-code" name="graphic-code" class="zbj-input smaller"
-                                   placeholder="请输入图形验证码">
-                            <img title="点击重新获取" class="graphic-code J-get-graphic-code" alt="获取图形验证码"
-                                 src="https://ipr.zbj.com/comm/verifygrap?seed=7706333594277" seed="7706333594277">
-                        </div>
-                        <div class="zbj-form-explain"></div>
-                    </div>
-                    <div class="zbj-form-item J-identify-code-wrap hide">
-                        <label for="identify-code" class="zbj-label required">验证码：</label>
-                        <div class="zbj-input-block">
-                            <input id="identify-code" name="smsCode" class="zbj-input" type="number"
-                                   placeholder="请输入短信验证码">
-                            <button type="button" class="get-identify-code J-get-identify-code">获取验证码</button>
-                        </div>
-                        <div class="zbj-form-explain"></div>
-                    </div>
+
                     <div class="ui-win-content textCenter clearfix" style="margin-top:20px;">
                         <input type="button" id="chance" class="J-submit-btn bj-btn-apply" value="立即查询">
                     </div>
+                    <p class="form-infor" id="msgshow" style="display: none;position: inherit;    font-size: 16px;">我们的专利人员<i class="number-all">13808533479</i>会尽快与您联系</p>
                 </form>
             </div>
         </div>
